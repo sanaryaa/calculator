@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Splash&display=swap');
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 25%;
+    height: 100%;
+    background: #252525;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5%;
+   
+}
+.result-sec{
+    width: 95%;
+    height: 30%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    text-align: end;
+}
+.result-sec p{
+    font-family: 'Raleway', sans-serif;
+}
+.btn-sec{
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* background: #22223b; */
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    align-items: center;
+    justify-items: center;
+}
+.btn{
+    width: 70%;
+    height: 60%;
+   font-family: 'Raleway', sans-serif;
+   border-radius: 15%;
+   background: #2f3e46;
+}
